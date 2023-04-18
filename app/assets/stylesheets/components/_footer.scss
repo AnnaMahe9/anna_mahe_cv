@@ -15,14 +15,7 @@
   margin-bottom: 0px;
 }
 
-.footer-links {
-  width:25%;
-  display: flex;
-  align-items: flex-end;
-  justify-content: space-evenly;
-}
-
-.footer-links a {
+.footer a {
   color: aqua;
   opacity: 1;
   text-decoration: none;
@@ -30,24 +23,6 @@
   padding: 0px 10px;
 }
 
-.footer-links a:hover {
+.footer a:hover {
   text-shadow: 1px 1px 10px aqua;
-}
-
-.footer-copyright {
-  display: flex;
-  flex-direction: row;
-  text-align: right;
-}
-
-.footer-copyright a{
-  color: white;
-  opacity: 1;
-  text-decoration: none;
-  font-size: 14px;
-  padding: 0px 10px;
-}
-
-.footer-copyright a:hover {
-  text-shadow: 10px 10px 10px aqua;
 }
