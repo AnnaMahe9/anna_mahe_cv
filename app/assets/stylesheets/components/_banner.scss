@@ -59,7 +59,8 @@ h2 {
 @media screen and (max-width: 700px) {
   .home-banner {
     height:fit-content;
-    background: none;
-    padding: 5rem 0;
+    background-image: url("phone-banner.jpg");
+    background-position: left;
+    padding: 6rem 0;
   }
 }
