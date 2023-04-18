@@ -1,0 +1,63 @@
+.home-banner {
+  background-image: url("banner.png");
+  background-color: lightgray;
+  background-size: cover;
+  background-position: top;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10rem;
+  height: 90vh;
+}
+
+.home-row {
+  padding-top: 20rem;
+  padding-left: 5rem;
+  width: 60%;
+}
+
+.home-banner h1 {
+  margin-bottom: 20px;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.home-banner h5 {
+  font-size: 20px;
+  color: white;
+  opacity: .7;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid aqua;
+}
+
+h2 {
+  padding: 0;
+}
+
+
+.home-banner p {
+  font-size: 13px;
+  color: white;
+  opacity: .7;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  margin-bottom: 20px;
+}
+
+.home-banner a {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  border-radius: 10px;
+  text-decoration: none;
+  padding: 10px 15px;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 700px) {
+  .home-banner {
+    height:fit-content;
+  }
+}

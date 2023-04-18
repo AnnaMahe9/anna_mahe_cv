@@ -1,0 +1,59 @@
+.navbar-lewagon .navbar-collapse {
+  flex-grow: 0;
+}
+
+.navbar-lewagon .navbar-brand img {
+  width: 40px;
+}
+
+.navbar-lewagon {
+  justify-content: space-between;
+  background-color: black;
+  border-bottom: 1px solid aqua;
+}
+
+.navbar-lewagon .navbar-collapse {
+  flex-grow: 0;
+}
+
+.logo {
+  height: 40px;
+  width: 40px;
+}
+
+.navbar-toggler-icon {
+  background-color: white;
+  border-radius: 5px;
+}
+
+.navbar-link {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  padding: 7px 5px 5px 5px;
+}
+.nav-item a:hover {
+  color: white;
+}
+
+.navbar-link:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  color: white;
+  background-color: aqua;
+  box-shadow: 1px 1px 15px aqua;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.navbar-link:hover:after {
+  color: white;
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}

@@ -1,0 +1,32 @@
+ <!-- NAVBAR -->
+  <div class="navbar navbar-expand-sm navbar-light sticky-top navbar-lewagon">
+      <div class="container-fluid">
+        <%= link_to root_path, class: "navbar-brand" do %>
+          <%= image_tag "am-white.png" %>
+        <% end %>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto">
+              <li class="nav-item active">
+                <a class="navbar-link" style="color: white;" href="/#projects">Mes projets</a>
+              </li>
+              <li class="nav-item">
+                <%= link_to "Mon parcours", ambitions_pages_path, class:"navbar-link" %>
+              </li>
+              <li class="nav-item dropdown">
+                  <a class="nav-link navbar-link dropdown-item-text" href="#" style="color: white;" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Mes plus <i class="fa-solid fa-angle-down"></i> 
+                  </a>
+                <div class="dropdown-menu dropdown-menu-end" style="background-color: black;" aria-labelledby="navbarDropdown">
+                  <%= link_to "Mes expériences", experiences_pages_path, class:"navbar-link" %>
+                  <a class="navbar-link" style="color: white;" href="#">Mon contact</a>
+                </div>
+              </li>
+          </ul>
+        </div>
+      </div>
+    </div>

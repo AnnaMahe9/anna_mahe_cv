@@ -1,0 +1,66 @@
+// MOST IMPORTANT BUTTONS EVER
+.pill-buttons {
+    position: fixed;
+    bottom: 80px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: 1s ease-in-out;
+}
+
+.pill-buttons:hover {
+    transform: scale(1.1);
+}
+
+.pill-buttons a {
+    text-decoration: none;
+    color: white;
+}
+
+#download-button {
+    left: 20px;
+    border: 1px solid aqua;
+    box-shadow: 0 0 15px 2px aqua;
+    &:hover {
+        background: aqua;
+        // cadetblue darkturquoise
+    }
+}
+
+#mail-button {
+    right: 20px;
+    border: 1px solid darkred;
+    box-shadow: 0 0 15px 2px darkred;
+    &:hover {
+        background: darkred;
+    }
+}
+
+// + BUTTON
+
+.button {
+    margin-top: 20px;
+}
+    
+.button a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid white;
+    border-radius: 20px;
+    height: fit-content;
+}
+    
+.button a:hover {
+    border: 1px solid aqua;
+    color:aqua;
+}
+      
+
+// BACK BUTTON
+
+.back-button {
+    text-decoration: none;
+    color: white;
+    opacity: 0.5;
+    margin-right: 20px;
+}

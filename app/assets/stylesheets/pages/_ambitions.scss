@@ -1,0 +1,89 @@
+.parcours-container {
+  padding: 30px;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 70px;
+}
+
+.carousel-arrows-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: 3px 3px 20px aqua;
+  border-radius: 10px;
+  margin: 20px 0px;
+}
+
+.parcours-carousel {
+  margin: 20px;
+  padding: 20px;
+  width: 80%;
+  height: 16rem;
+}
+
+.prev-arrow, .next-arrow {
+  padding: 0;
+  color: white;
+  text-align: center;
+  background: none;
+  border: 0;
+  opacity: 0.5;
+  transition: opacity 0.15s ease;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.parcours-container h2, .parcours-container h4 {
+  color: white;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid white;
+}
+
+.parcours-paragraph, .parcours-presentation {
+  font-size: 15px;
+}
+
+.parcours-paragraph p {
+  text-indent: 3%;
+}
+
+.parcours-presentation {
+  padding-left: 20px;
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 700px) {
+  .parcours-container {
+    padding: 10px;
+
+    h4 {
+      margin-bottom: 10px;
+    }
+  }
+
+  .parcours-container h2 {
+    margin:0 ;
+  }
+
+  .parcours-carousel {
+    overflow: scroll;
+    margin: 0;
+    padding: 10px 0 0 0;
+  }
+
+  .carousel-inner {
+    padding: 0;
+  }
+
+  .parcours-paragraph, .parcours-presentation {
+    font-size: 12px;
+    text-indent: 0%;
+  }
+}

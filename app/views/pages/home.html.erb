@@ -1,0 +1,221 @@
+<!-- BANNER  -->
+<div class="home-container">
+  <div class="home-banner">
+    <div class="home-row">
+      <h1>Anna Mahé</h1>
+      <h5>Développeuse Fullstack Junior</h5>
+      <p>Suite à ma formation en développement web au Wagon, je suis prête à mettre en pratique mes compétences en
+        programmation en back-end et front-end. Mon objectif est d'élargir mes connaissances en utilisant de nouveaux
+        langages.
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-12">
+      <!-- TECHNOLOGIES -->
+      <div class="parcours-container">
+        <h2>Technologies</h2>
+        <div class="cards language-categories d-flex">
+            <div class="language-category">
+              <p class="text-center">Bases de données</p>
+              <div class="col cards-category d-flex">
+                  <div class="language">
+                      <%= image_tag "languages/ruby.png", class: "card-img-top" %>
+                      <div class="card-body-category">
+                          <p class="card-language-text">Ruby</p>
+                      </div>
+                  </div>
+                  <div class="language">
+                      <%= image_tag "languages/sql.png", class: "card-img-top" %>
+                      <div class="card-body-category">
+                          <p class="card-language-text">SQL</p>
+                      </div>
+                  </div>
+                </div>
+            </div>
+            <div class="language-category">
+              <p class="text-center">Front-end</p>
+              <div class="col cards-category d-flex">
+                <div class="language">
+                  <%= image_tag "languages/html5.png", class: "card-img-top" %>
+                  <div class="card-body-category">
+                    <p class="card-language-text">HTML5</p>
+                  </div>
+                </div>
+                <div class="language">
+                  <%= image_tag "languages/css3.png", class: "card-img-top" %>
+                  <div class="card-body-category">
+                    <p class="card-language-text">CSS3</p>
+                  </div>
+                </div>
+                <div class="language">
+                  <%= image_tag "languages/javascript.png", class: "card-img-top" %>
+                  <div class="card-body-category">
+                    <p class="card-language-text">Javascript</p>
+                  </div>
+                </div>
+                <div class="language">
+                  <%= image_tag "languages/bootstrap.png", class: "card-img-top" %>
+                  <div class="card-language">
+                    <p class="card-language-text">Bootstrap</p>
+                  </div>
+                </div>
+                <div class="language">
+                  <%= image_tag "languages/webpack.png", class: "card-img-top" %>
+                  <div class="card-language">
+                    <p class="card-language-text">Webpack</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="language-category">
+              <p class="text-center">Back-end & Déploiement</p>
+              <div class="col cards-category d-flex">
+                <div class="language">
+                  <%= image_tag "languages/ruby-on-rails.png", class: "card-img-top" %>
+                  <div class="card-body-category">
+                    <p class="card-language-text">Ruby On Rails</p>
+                  </div>
+                </div>
+                <div class="language">
+                  <%= image_tag "languages/heroku.png", class: "card-img-top" %>
+                  <div class="card-body-category">
+                    <p class="card-language-text">Heroku</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="language-category">
+              <p class="text-center">Workflow</p>
+              <div class="col cards-category d-flex">
+                <div class="language">
+                  <%= image_tag "languages/figma.png", class: "card-img-top" %>
+                  <div class="card-body-category">
+                    <p class="card-language-text">Figma</p>
+                  </div>
+                </div>
+                  <div class="language">
+                    <%= image_tag "languages/git.png", class: "card-img-top" %>
+                    <div class="card-body-category">
+                      <p class="card-language-text">Git</p>
+                    </div>
+                  </div>
+                  <div class="language">
+                    <%= image_tag "languages/github.png", class: "card-img-top" %>
+                    <div class="card-body-category">
+                      <p class="card-language-text">Github</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- PROJECTS -->
+        <h2>Mes projets</h2>
+        <div class="projects-cards">
+
+          <div class="project" id="projects">
+            <%= image_tag "projects/planty-secrets.png" %>
+            <div class="infos">
+              <h4>Planty Secrets</h4>
+              <p>Projet final à la sortie du Wagon</p>
+              <div class="site-link">
+                <i class="fa-solid fa-angles-down"></i>
+              </div>
+              <div class="project-infos flop">
+                <div class="bullet-point">
+                    <i class="fa-solid fa-comment fa-flip-horizontal icons"></i>
+                    <p>Reconnaissance des plantes et de leurs vertus médicales</p>
+                </div>
+                <div class="bullet-point">
+                    <i class="fa-solid fa-calendar-days icons"></i>
+                    <p>10 jours</p>
+                </div>
+                <div class="bullet-point">
+                    <i class="fa-solid fa-users icons"></i>
+                    <p>3 personnes</p>
+                </div>
+                <div class="bullet-point">
+                    <i class="fa-solid fa-laptop-code icons"></i>
+                    <p>Téléphone</p>
+                </div>
+                <div class="button">
+                  <%= link_to "En savoir plus", plantysecrets_pages_path %>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="project">
+            <%= image_tag "projects/pawesome.png", class: "pt-5" %>
+            <div class="infos">
+              <h4>Pawsome</h4>
+              <p>Projet intermédiaire type e-commerce</p>
+              <div class="site-link">
+                <i class="fa-solid fa-angles-down"></i>
+              </div>
+              <div class="project-infos flop">
+                <div class="bullet-point">
+                    <i class="fa-solid fa-comment fa-flip-horizontal icons"></i>
+                    <p>Location d'animaux exotiques en tous genres</p>
+                </div>
+                <div class="bullet-point">
+                    <i class="fa-solid fa-calendar-days icons"></i>
+                    <p>4 jours</p>
+                </div>
+                <div class="bullet-point">
+                    <i class="fa-solid fa-users icons"></i>
+                    <p>3 personnes</p>
+                </div>
+                <div class="bullet-point">
+                    <i class="fa-solid fa-laptop-code icons"></i>
+                    <p>Ordinateur</p>
+                </div>
+                <div class="button">
+                  <%= link_to "En savoir plus", pawsome_pages_path %>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="project">
+            <%= image_tag "projects/recipes-manager.png" %>
+            <div class="infos">
+              <h4>Recipes Manager</h4>
+              <p>Projet indépendant post formation</p>
+              <div class="site-link">
+                <i class="fa-solid fa-angles-down"></i>
+              </div>
+              <div class="project-infos flop">
+                <div class="bullet-point">
+                    <i class="fa-solid fa-comment fa-flip-horizontal icons"></i>
+                    <p>Sauvegarde de nos recettes préférées</p>
+                </div>
+                <div class="bullet-point">
+                    <i class="fa-solid fa-screwdriver-wrench icons"></i>
+                    <p>Projet en cours</p>
+                </div>
+                <div class="bullet-point">
+                    <i class="fa-solid fa-users icons"></i>
+                    <p>1 personne</p>
+                </div>
+                <div class="bullet-point">
+                    <i class="fa-solid fa-laptop-code icons"></i>
+                    <p>Ordinateur & Téléphone</p>
+                </div>
+                <%# <div class="button">
+                  <%= link_to "En savoir plus", pawsome_pages_path %>
+                <%# </div>  %>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
