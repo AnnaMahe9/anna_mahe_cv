@@ -14,7 +14,7 @@ class PagesController < ApplicationController
   def experiences
   end
   
-  def ambitions
+  def parcours
   end
 
   def telecharger_pdf

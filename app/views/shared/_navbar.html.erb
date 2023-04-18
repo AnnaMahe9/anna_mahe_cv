@@ -11,20 +11,14 @@
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <%= link_to "Mon parcours", parcours_pages_path, class:"navbar-link" %>
+              </li>
               <li class="nav-item active">
                 <a class="navbar-link" style="color: white;" href="/#projects">Mes projets</a>
               </li>
               <li class="nav-item">
-                <%= link_to "Mon parcours", ambitions_pages_path, class:"navbar-link" %>
-              </li>
-              <li class="nav-item dropdown">
-                  <a class="nav-link navbar-link dropdown-item-text" href="#" style="color: white;" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Mes plus <i class="fa-solid fa-angle-down"></i> 
-                  </a>
-                <div class="dropdown-menu dropdown-menu-end" style="background-color: black;" aria-labelledby="navbarDropdown">
-                  <%= link_to "Mes expériences", experiences_pages_path, class:"navbar-link" %>
-                  <a class="navbar-link" style="color: white;" href="#">Mon contact</a>
-                </div>
+                <%= link_to "Mes expériences", experiences_pages_path, class:"navbar-link" %>
               </li>
           </ul>
         </div>
