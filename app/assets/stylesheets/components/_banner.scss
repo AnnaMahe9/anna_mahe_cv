@@ -28,7 +28,6 @@
   color: white;
   opacity: .7;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-  padding-bottom: 20px;
   border-bottom: 1px solid aqua;
   height: 60px;
 }
@@ -38,6 +37,7 @@ h2 {
 }
 
 .home-banner p {
+  margin-top: 20px;
   font-size: 13px;
   color: white;
   opacity: .7;
@@ -60,9 +60,6 @@ h2 {
     height:fit-content;
     background: none;
     font-size: 18px;
-    // background-image: url("phone-banner.jpg");
-    // background-size: cover;
-    // background-position: bottom;
     padding: 6rem 0;
   }
 }
