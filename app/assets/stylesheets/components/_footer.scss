@@ -1,18 +1,18 @@
 .footer {
-  border-top: 1px solid aqua;
-  background: black;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  max-height: 20px;
-  padding: 30px;
-  color: white;
-  width: 100%;
   position: fixed;
   bottom: 0px;
   left: 0px;
   right: 0px;
   margin-bottom: 0px;
+  border-top: 1px solid aqua;
+  background: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-height: 20px;
+  padding: 30px;
+  color: white;
+  width: 100%;
 }
 
 .footer a {
