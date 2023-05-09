@@ -19,8 +19,8 @@ class PagesController < ApplicationController
 
   def telecharger_pdf
     send_file(
-      "#{Rails.root}/public/cv.pdf",
-      filename: "cv.pdf",
+      "#{Rails.root}/public/CV-anna-mahe.pdf",
+      filename: "CV-anna-mahe.pdf",
       type: "application/pdf"
     )
   end
